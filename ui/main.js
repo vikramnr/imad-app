@@ -2,5 +2,10 @@ console.log('Loaded!');
 var element= document.getElementById('madi');
 
 element.onclick=function(){
-    element.style.marginLeft='100px';s
+    var interval=setInterval(moveLeft,100);
+    
+}
+function moveLeft(){
+    ginga=ginga+10;
+    element.style.marginLeft=ginga+'px';
 }
