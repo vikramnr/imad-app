@@ -6,6 +6,7 @@ element.onclick=function(){
     
 }
 function moveLeft(){
+    ginga=0;
     ginga=ginga+10;
     element.style.marginLeft=ginga+'px';
 }
